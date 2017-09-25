@@ -23,7 +23,10 @@ class Tmp
 
     public function __destruct()
     {
-        @unlink($this->file);
+        if (file_exists($this->file))
+        {
+            unlink($this->file);
+        }
     }
 
     public function __toString()
