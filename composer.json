@@ -1,0 +1,20 @@
+{
+  "name": "bavix/tests",
+  "description": "Test case, phpunit",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Babichev Maxim",
+      "email": "info@babichev.net"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bavix\\": "src/"
+    }
+  }
+}
