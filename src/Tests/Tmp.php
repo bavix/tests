@@ -16,6 +16,8 @@ class Tmp
     public function __construct()
     {
         $this->file = tempnam(sys_get_temp_dir(), 'bavix');
+        \touch($this->file);
+
         register_shutdown_function([$this, '__destruct']);
     }
 
