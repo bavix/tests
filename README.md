@@ -18,3 +18,8 @@ Library for testing of packages.
 * **Version**: [![Latest Stable Version](https://poser.pugx.org/bavix/tests/v/stable)](https://packagist.org/packages/bavix/tests)
 * **PHP Version**: 7.1+ 
 * **[Composer](https://getcomposer.org/):** `composer require bavix/tests`
+
+---
+Supported by
+
+[![Supported by JetBrains](https://cdn.rawgit.com/bavix/development-through/46475b4b/jetbrains.svg)](https://www.jetbrains.com/)
